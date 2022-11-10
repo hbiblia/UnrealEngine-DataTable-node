@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DataTableExt.cpp.obj": [
+			"DataTableExt.cpp.obj",
+			"DataTableExtBPLibrary.cpp.obj"
+		],
+		"Module.DataTableExt.gen.cpp.obj": [
+			"DataTableExt.init.gen.cpp.obj",
+			"DataTableExtBPLibrary.gen.cpp.obj"
+		]
+	}
+}

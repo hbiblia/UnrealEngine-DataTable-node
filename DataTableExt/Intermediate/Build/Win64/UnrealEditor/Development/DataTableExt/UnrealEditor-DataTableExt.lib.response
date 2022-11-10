@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-DataTableExt.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\JGStudio\Juegos\StartBolita\Projects\v2\Intermediate\Build\Win64\StartBolitaEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\JGStudio\Juegos\StartBolita\Projects\v2\Plugins\DataTableExt\Intermediate\Build\Win64\UnrealEditor\Development\DataTableExt\Module.DataTableExt.cpp.obj"
+"D:\JGStudio\Juegos\StartBolita\Projects\v2\Plugins\DataTableExt\Intermediate\Build\Win64\UnrealEditor\Development\DataTableExt\Module.DataTableExt.gen.cpp.obj"
+"D:\JGStudio\Juegos\StartBolita\Projects\v2\Plugins\DataTableExt\Intermediate\Build\Win64\UnrealEditor\Development\DataTableExt\Default.rc2.res"
+/OUT:"D:\JGStudio\Juegos\StartBolita\Projects\v2\Plugins\DataTableExt\Intermediate\Build\Win64\UnrealEditor\Development\DataTableExt\UnrealEditor-DataTableExt.lib"

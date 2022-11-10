@@ -1,0 +1,17 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\jgstudio\\juegos\\startbolita\\projects\\v2\\plugins\\datatableext\\intermediate\\build\\win64\\unrealeditor\\development\\datatableext\\module.datatableext.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\jgstudio\\juegos\\startbolita\\projects\\v2\\intermediate\\build\\win64\\startbolitaeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\jgstudio\\juegos\\startbolita\\projects\\v2\\plugins\\datatableext\\intermediate\\build\\win64\\unrealeditor\\development\\datatableext\\definitions.datatableext.h",
+            "d:\\jgstudio\\juegos\\startbolita\\projects\\v2\\plugins\\datatableext\\intermediate\\build\\win64\\unrealeditor\\inc\\datatableext\\datatableext.init.gen.cpp",
+            "d:\\jgstudio\\juegos\\startbolita\\projects\\v2\\plugins\\datatableext\\intermediate\\build\\win64\\unrealeditor\\inc\\datatableext\\datatableextbplibrary.gen.cpp",
+            "d:\\jgstudio\\juegos\\startbolita\\projects\\v2\\plugins\\datatableext\\source\\datatableext\\public\\datatableextbplibrary.h",
+            "d:\\jgstudio\\juegos\\startbolita\\projects\\v2\\plugins\\datatableext\\intermediate\\build\\win64\\unrealeditor\\inc\\datatableext\\datatableextbplibrary.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
