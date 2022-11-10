@@ -48,6 +48,28 @@ public:
 		*(bool*)RESULT_PARAM = bSuccess;
 	}
 
+	UFUNCTION(BlueprintCallable, CustomThunk, Category = "DataTable", meta = (CustomStructureParam = "Struct"))
+		static bool SetDataTableRow(UDataTable* table, const FName RowName, FDataTableStructBase Struct);
+
+	static bool Generic_SetDataTableRow(UDataTable* table, FName RowName, const FTableRowBase& StructPtr);
+	DECLARE_FUNCTION(execSetDataTableRow)
+	{
+		P_GET_OBJECT(UDataTable, table);
+		P_GET_PROPERTY(FNameProperty, RowName);
+
+		Stack.StepCompiledIn<FStructProperty>(NULL);
+		const FTableRowBase& StructPtr = *(FTableRowBase*)Stack.MostRecentPropertyAddress;
+
+		P_FINISH;
+		bool bSuccess = false;
+
+		P_NATIVE_BEGIN;
+		bSuccess = Generic_SetDataTableRow(table, RowName, StructPtr);
+		P_NATIVE_END;
+
+		*(bool*)RESULT_PARAM = bSuccess;
+	}
+
 	UFUNCTION(BlueprintCallable, Category = "DataTable")
 	static void RemoveDataTableRow(UDataTable* table, FName RowName);
 };
