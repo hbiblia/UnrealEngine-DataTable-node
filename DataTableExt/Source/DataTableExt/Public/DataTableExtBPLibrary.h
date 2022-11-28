@@ -72,4 +72,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "DataTable")
 	static void RemoveDataTableRow(UDataTable* table, FName RowName);
+
+	UFUNCTION(BlueprintCallable, Category = "DataTable")
+	static int GetLengthDataTable(UDataTable *table);
 };

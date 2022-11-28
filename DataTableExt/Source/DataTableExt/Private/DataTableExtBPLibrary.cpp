@@ -48,3 +48,11 @@ void UDataTableExtBPLibrary::RemoveDataTableRow(UDataTable* table, FName RowName
 {
 	table->RemoveRow(RowName);
 }
+
+int UDataTableExtBPLibrary::GetLengthDataTable(UDataTable *table)
+{
+	TArray<FName> OutRowNames;
+
+	UDataTableFunctionLibrary::GetDataTableRowNames(table, OutRowNames);
+	return OutRowNames.Num();
+}
