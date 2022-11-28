@@ -9,5 +9,6 @@ DataTableExt son nodos extras para DataTable de UnrealEngine
   - Borramos una row de una tabla.
 
 
-![nodos](https://user-images.githubusercontent.com/1939353/201009121-67853714-fd7a-4023-8dea-c2992c6e93c2.png)
+
+![preview](https://user-images.githubusercontent.com/1939353/204193871-634b2b8d-4632-44d2-ba4f-6d3b35de7650.png)
 
